@@ -1,6 +1,7 @@
 require 'pry'
 # Your code goes here!
 class Anagram
+  
   attr_accessor :word 
   
   def initialize(word)
@@ -12,6 +13,7 @@ class Anagram
     anagram_array = []
     
     #w%(array).each do |word| => Why this didn't turn into an array 
+    #binding.pry 
     
     array.each do |word|
       if word.split("").sort == @word.split("").sort
@@ -20,7 +22,7 @@ class Anagram
         anagram_array
       end
     end 
-  anagram_array
+  anagram_array 
   end
   
 end 
