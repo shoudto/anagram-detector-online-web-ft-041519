@@ -8,7 +8,7 @@ class Anagram
     @word = word  
   end
   
-  def self.match(array)
+  def match(array)
     binding.pry 
   end 
 
