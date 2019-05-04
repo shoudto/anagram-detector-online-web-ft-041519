@@ -1,9 +1,11 @@
 # Your code goes here!
 class Anagram 
   
-  attr_accessor :name 
+  attr_accessor :word 
   
-  def initialized(name)
-    @name = name 
-  end 
+  def initialized(word)
+    @word = word  
+  end
+  
+  def matches
 end 
