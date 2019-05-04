@@ -15,8 +15,9 @@ class Anagram
         arr << word 
       else 
         arr 
+      end 
+      arr 
     end 
-    arr
   end 
 
 end 
