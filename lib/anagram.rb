@@ -5,9 +5,11 @@ class Anagram
   attr_accessor :word 
   
   def initialized(word)
-    binding.pry 
     @word = word  
   end
   
+  def 
+    
+  end 
 
 end 
