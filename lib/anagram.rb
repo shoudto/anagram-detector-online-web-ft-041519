@@ -8,8 +8,11 @@ class Anagram
   end
   
   def match (array)
-    #w%(array).each do |word| => Why this didn't turn into an array 
+    
     anagram_array = []
+    
+    #w%(array).each do |word| => Why this didn't turn into an array 
+    
     array.each do |word|
       if word.split("").sort == @word.split("").sort
         anagram_array << word
