@@ -10,14 +10,14 @@ class Anagram
   
   def match(array)
     # %w(array).each do |word| => I don't know why this didn't change into an array?
-      arr = []
+      word_array = []
       array.each do |word|
       if word.split("").sort == word.split("").sort
-        arr << word 
+        word_array << word 
       else 
-        arr 
+        word_array 
       end 
-      arr 
+      word_array 
     end 
   end 
 
